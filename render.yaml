@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: tdoia-mvp-equipe
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python servidor_chat.py
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.11
+      - key: TDOIA_HOST
+        value: 0.0.0.0
+      - key: PUBLIC_MODE
+        value: '1'
+      - key: TEAM_PASSWORD
+        sync: false
+      - key: CHAT_ENABLED
+        value: '0'

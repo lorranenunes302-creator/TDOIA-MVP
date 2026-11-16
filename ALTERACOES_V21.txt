@@ -1,0 +1,1 @@
+Marketing: os seis achados estrategicos foram movidos para a coluna Principais achados da Visao Executiva, substituindo os antigos cards dessa coluna. A secao duplicada foi removida do bloco inferior. As metricas dinamicas continuam conectadas aos controles de custo e receita. Os demais agentes permanecem iguais.
